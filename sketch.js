@@ -22,13 +22,13 @@ function setup() {
 //
 
 function draw() {
-  background("blue");
+  background("black");
   orbitControl();
 
   let angle = 360 / columns;
   let diameter = textSize();
 
-  fill("white");
+  fill("blue");
 
   rotateY(-frameCount);
   for (let i = 0; i < columns; i++) {
