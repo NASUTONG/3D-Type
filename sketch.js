@@ -1,4 +1,4 @@
-let columns = 10;
+let columns = 60;
 let rows = 10;
 
 //
